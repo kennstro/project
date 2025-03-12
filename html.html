@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Equip Item</title>
+</head>
+<body>
+    <h2>Equip Item</h2>
+    <form method="post" action="equip_item.php">
+        <label for="item_id">Item ID:</label>
+        <input type="text" id="item_id" name="item_id" required><br>
+        <label for="slot">Slot:</label>
+        <select id="slot" name="slot" required>
+            <option value="hat">Hat</option>
+            <option value="top">Top</option>
+            <option value="pants">Pants</option>
+            <option value="shoes">Shoes</option>
+            <option value="accessory">Accessory</option>
+            <option value="item">Item</option>
+        </select><br>
+        <button type="submit">Equip Item</button>
+    </form>
+</body>
+</html>
